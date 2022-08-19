@@ -13,4 +13,10 @@ func main() {
 	lib.Model1()
 	space.Model2()
 	primitives.BoolFunction()
+	primitives.PlayWithNumbers()
+	primitives.Calculation()
+	fmt.Println()
+	primitives.BitWise()
+	fmt.Println()
+	primitives.BitShift()
 }
