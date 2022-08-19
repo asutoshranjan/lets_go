@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"go_lang/lib"
+	"go_lang/primitives"
 	"go_lang/space"
 )
 
@@ -11,4 +12,5 @@ func main() {
 	space.SayHello()
 	lib.Model1()
 	space.Model2()
+	primitives.BoolFunction()
 }
