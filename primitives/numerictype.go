@@ -19,13 +19,13 @@ func Calculation() {
 	a := 45
 	b := 10
 	var (
-		c int  = 67
-		d int8 = 8
+		c float32 = 67.87
+		d int8    = 8
 	)
 	fmt.Println(a + b)
 	fmt.Println(a - b)
 	fmt.Println(a * b)
 	fmt.Println(a / b)
 	fmt.Println(a % b)
-	fmt.Println(c + int(d))
+	fmt.Println(c + float32(d))
 }
