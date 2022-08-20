@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go_lang/collections"
 	"go_lang/consts"
 	"go_lang/consts/projects"
 	"go_lang/lib"
@@ -37,4 +38,12 @@ func main() {
 	projects.FileSizeConverter()
 	fmt.Println()
 	projects.AdminAccess()
+	fmt.Println()
+	collections.GradesArray()
+	fmt.Println()
+	collections.IdentityMatrix()
+	collections.CopyOfArray()
+	collections.SliceInGo()
+	collections.StackinSlice()
+	collections.StackPushPop()
 }
