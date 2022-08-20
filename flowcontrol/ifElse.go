@@ -29,5 +29,9 @@ func NumberGuessWithIF() {
 			fmt.Println("You Got it!!")
 		}
 	}
+
+	if nums := 20; nums < 40 {
+		fmt.Printf("yeah the nums: %v is safe! \n", nums)
+	}
 	fmt.Println()
 }

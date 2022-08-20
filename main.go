@@ -7,6 +7,7 @@ import (
 	"go_lang/consts/projects"
 	"go_lang/flowcontrol"
 	"go_lang/lib"
+	"go_lang/looping"
 	"go_lang/primitives"
 	"go_lang/space"
 )
@@ -55,4 +56,5 @@ func main() {
 	flowcontrol.TestForShortcircuiting()
 	flowcontrol.SwitchCaseInGo()
 	flowcontrol.TypeSwitchInGo()
+	looping.SimpleLoopGo()
 }
