@@ -12,6 +12,7 @@ func ComplexNumbers() {
 	var o complex128 = complex(5, 12)
 	fmt.Printf("%v, %T\n", n, n)
 	fmt.Printf("%v, %T\n", o, o)
+	fmt.Printf("%v, %T\n", real(m), real(m))
 	fmt.Printf("%v, %T\n", imag(m), imag(m))
 	fmt.Println(m + n)
 	fmt.Println(m - n)

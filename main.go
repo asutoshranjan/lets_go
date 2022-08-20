@@ -2,6 +2,8 @@ package main
 
 import (
 	"fmt"
+	"go_lang/consts"
+	"go_lang/consts/projects"
 	"go_lang/lib"
 	"go_lang/primitives"
 	"go_lang/space"
@@ -29,4 +31,10 @@ func main() {
 	primitives.TextType()
 	fmt.Println()
 	primitives.RuneGo()
+	fmt.Println()
+	consts.GoConstants()
+	fmt.Println()
+	projects.FileSizeConverter()
+	fmt.Println()
+	projects.AdminAccess()
 }
