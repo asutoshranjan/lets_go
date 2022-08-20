@@ -19,7 +19,7 @@ func DoctorStruct() {
 	fmt.Println(aDoctor)
 	fmt.Println(aDoctor.actorName) //dot syntax
 
-	bDoctor := &aDoctor
+	bDoctor := aDoctor
 	bDoctor.actorName = "Ajay Route"
 	fmt.Println(bDoctor)
 	fmt.Println(aDoctor)

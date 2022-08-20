@@ -28,4 +28,5 @@ func StructInheritance() {
 	t := reflect.TypeOf(Animal{})
 	field, _ := t.FieldByName("Origin")
 	fmt.Println(field.Tag)
+	fmt.Println()
 }

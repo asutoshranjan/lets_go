@@ -5,6 +5,7 @@ import (
 	"go_lang/collections"
 	"go_lang/consts"
 	"go_lang/consts/projects"
+	"go_lang/flowcontrol"
 	"go_lang/lib"
 	"go_lang/primitives"
 	"go_lang/space"
@@ -49,4 +50,8 @@ func main() {
 	collections.MapsInGo()
 	collections.DoctorStruct()
 	collections.StructInheritance()
+	flowcontrol.IfElseInGo()
+	flowcontrol.NumberGuessWithIF()
+	flowcontrol.TestForShortcircuiting()
+	flowcontrol.SwitchCaseInGo()
 }
