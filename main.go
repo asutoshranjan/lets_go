@@ -54,4 +54,5 @@ func main() {
 	flowcontrol.NumberGuessWithIF()
 	flowcontrol.TestForShortcircuiting()
 	flowcontrol.SwitchCaseInGo()
+	flowcontrol.TypeSwitchInGo()
 }
