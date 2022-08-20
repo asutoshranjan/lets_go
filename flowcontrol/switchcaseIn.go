@@ -5,12 +5,23 @@ import (
 )
 
 func SwitchCaseInGo() {
-	switch 2 {
-	case 1:
-		fmt.Println("One")
-	case 2:
-		fmt.Println("Two")
+	switch i := 2 + 3; i { //Syntax for initializing and checking for values
+	case 1, 5, 10:
+		fmt.Println("One or Five or Ten")
+	case 2, 4, 6:
+		fmt.Println("Two or Four or Six")
 	default:
-		fmt.Println("Not one or two")
+		fmt.Println("Some Other Num")
+	}
+
+	j := 15
+
+	switch {
+	case j <= 10:
+		fmt.Println("less than or equal to Ten")
+	case j <= 20:
+		fmt.Println("less than or equal to Twenty")
+	default:
+		fmt.Println("greater than twenty")
 	}
 }
