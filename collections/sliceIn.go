@@ -50,7 +50,7 @@ func StackinSlice() {
 }
 
 func StackPushPop() {
-	a1 := [...]int{1, 2, 3, 4, 5}
+	a1 := [5]int{1, 2, 3, 4, 5}
 	a := a1
 	b := a[:len(a)-1] //pop element
 	fmt.Println(b)

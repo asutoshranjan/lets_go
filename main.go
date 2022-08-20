@@ -46,4 +46,7 @@ func main() {
 	collections.SliceInGo()
 	collections.StackinSlice()
 	collections.StackPushPop()
+	collections.MapsInGo()
+	collections.DoctorStruct()
+	collections.StructInheritance()
 }

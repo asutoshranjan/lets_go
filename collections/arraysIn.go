@@ -5,7 +5,7 @@ import (
 )
 
 func GradesArray() {
-	grades := []int{97, 85, 93}
+	grades := [...]int{97, 85, 93}
 	var list [5]int
 	list[3] = 67
 	fmt.Printf("Grades :%v \n", grades)
