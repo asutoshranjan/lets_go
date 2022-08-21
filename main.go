@@ -8,10 +8,12 @@ import (
 	"go_lang/deferpanicrecovery"
 	"go_lang/flowcontrol"
 	"go_lang/functions"
+	"go_lang/interfaces"
 	"go_lang/lib"
 	"go_lang/looping"
 	"go_lang/pointers"
 	"go_lang/primitives"
+	"go_lang/routines"
 	"go_lang/space"
 	//"go_lang/webgo"
 )
@@ -75,4 +77,6 @@ func main() {
 	functions.PointerCallingFun()
 	functions.ErrorHandelInGo()
 	functions.FuncAsVariable()
+	interfaces.InterfaceInGo()
+	routines.GoRoutines()
 }

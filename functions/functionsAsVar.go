@@ -21,7 +21,7 @@ func FuncAsVariable() {
 
 	g1 := Greeter{
 		Name:  "Asutosh",
-		Greet: "Hello",
+		Greet: "Hi",
 	}
 	iwillGtreat(g1)
 }
