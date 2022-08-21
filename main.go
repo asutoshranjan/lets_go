@@ -7,6 +7,7 @@ import (
 	"go_lang/consts/projects"
 	"go_lang/deferpanicrecovery"
 	"go_lang/flowcontrol"
+	"go_lang/functions"
 	"go_lang/lib"
 	"go_lang/looping"
 	"go_lang/pointers"
@@ -68,4 +69,10 @@ func main() {
 	deferpanicrecovery.PanicInGo()
 	//webgo.HelloWebGO()
 	pointers.PointersInGo()
+	functions.Function1()
+	functions.FunctionsWithPointers()
+	functions.SumOfNumbers()
+	functions.PointerCallingFun()
+	functions.ErrorHandelInGo()
+	functions.FuncAsVariable()
 }
