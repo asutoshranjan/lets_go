@@ -9,9 +9,10 @@ import (
 	"go_lang/flowcontrol"
 	"go_lang/lib"
 	"go_lang/looping"
+	"go_lang/pointers"
 	"go_lang/primitives"
 	"go_lang/space"
-	"go_lang/webgo"
+	//"go_lang/webgo"
 )
 
 func main() {
@@ -65,5 +66,6 @@ func main() {
 	deferpanicrecovery.DeferInGo()
 	//deferpanicrecovery.DeferResourceManager()
 	deferpanicrecovery.PanicInGo()
-	webgo.HelloWebGO()
+	//webgo.HelloWebGO()
+	pointers.PointersInGo()
 }
