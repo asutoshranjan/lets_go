@@ -57,4 +57,7 @@ func main() {
 	flowcontrol.SwitchCaseInGo()
 	flowcontrol.TypeSwitchInGo()
 	looping.SimpleLoopGo()
+	looping.ForWhileLoopGo()
+	looping.LabledLoop()
+	looping.ForEachLoopGo()
 }
