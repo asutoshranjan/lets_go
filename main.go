@@ -5,11 +5,13 @@ import (
 	"go_lang/collections"
 	"go_lang/consts"
 	"go_lang/consts/projects"
+	"go_lang/deferpanicrecovery"
 	"go_lang/flowcontrol"
 	"go_lang/lib"
 	"go_lang/looping"
 	"go_lang/primitives"
 	"go_lang/space"
+	"go_lang/webgo"
 )
 
 func main() {
@@ -60,4 +62,8 @@ func main() {
 	looping.ForWhileLoopGo()
 	looping.LabledLoop()
 	looping.ForEachLoopGo()
+	deferpanicrecovery.DeferInGo()
+	//deferpanicrecovery.DeferResourceManager()
+	deferpanicrecovery.PanicInGo()
+	webgo.HelloWebGO()
 }

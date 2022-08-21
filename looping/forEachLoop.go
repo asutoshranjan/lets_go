@@ -13,7 +13,15 @@ func ForEachLoopGo() {
 		fmt.Println(k, v)
 	}
 	fmt.Println()
-
+	m := map[string]int{
+		"Ashu":    8473,
+		"Shoriya": 9083,
+		"Raju":    9484,
+	}
+	for k, v := range m {
+		fmt.Println(k, v)
+	}
+	fmt.Println()
 	a := "Hello Go!"
 	for k, v := range a {
 		fmt.Println(k, string(v))
