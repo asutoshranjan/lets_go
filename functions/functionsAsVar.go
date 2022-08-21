@@ -23,5 +23,9 @@ func FuncAsVariable() {
 		Name:  "Asutosh",
 		Greet: "Hello",
 	}
-	fmt.Println(g1.Greet, g1.Name)
+	iwillGtreat(g1)
+}
+
+func iwillGtreat(g Greeter) {
+	fmt.Println(g.Greet, g.Name)
 }
