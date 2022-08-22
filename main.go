@@ -51,7 +51,6 @@ func main() {
 	fmt.Println()
 	collections.IdentityMatrix()
 	collections.CopyOfArray()
-	collections.SliceInGo()
 	collections.StackinSlice()
 	collections.StackPushPop()
 	collections.MapsInGo()
@@ -79,4 +78,5 @@ func main() {
 	functions.FuncAsVariable()
 	interfaces.InterfaceInGo()
 	routines.GoRoutines()
+	collections.SliceInGo()
 }
